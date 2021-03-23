@@ -1,0 +1,268 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #061C37;
+	background: #1E4297;
+	background-image:url(images/background.jpg);
+	background-repeat:repeat-x;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+
+
+#container
+{
+  display: block; 
+  height:auto;
+  position: relative; 
+  width: 750px;
+  background: #1E4297;
+  background-image:url(images/whitebackground.jpg);
+  background-repeat:repeat-y;
+   padding-left:17px;
+  padding-right:17px;
+  overflow:hidden;
+}
+
+#links
+{
+display:block;/*This puts the text for the links into position*/
+float:right;	
+margin-top:25px;
+margin-right:10px;
+
+
+}
+
+#links a, #links a:visited
+{
+font-size:16px;
+font-weight:bold;
+margin-left:4px;
+margin-right:4px;
+color: #FDF5E6;/*This determines the font size and how large of a space it takes up in the "header" along with having its default look as a cream text until hover'd over*/
+text-decoration:none;
+}
+
+#links a:hover
+{
+border-bottom:dotted 1px #1652B4;
+color: #000000;/*This change the text color to black if you hoverover it*/
+}
+
+#header
+{
+height:113px;/*This displays the image behind the header along with the actually size heightght wise*/
+background-image:url("images/HeaderImg.png");
+}
+
+#header h1
+{
+margin-top:15px;
+margin-left:10px;
+font-size:33px;
+color:#0A2645;/*This moves the h1 text to the left it determines its size and how larger it intracts within the header*/
+float:left;
+}
+
+.off
+{
+color:#FDF5E6
+}
+
+.picture
+{
+	background-image:url(images/imagebackground.jpg);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding-bottom:8px;
+	margin-top:22px;
+}
+
+
+.contenttext h2
+{
+color:#123F83;
+font-size:24px;
+margin-bottom:10px;
+	
+}
+
+.contenttext
+{
+	padding-left:10px;
+	padding-right:10px;
+}
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+  height: 400px;
+  width: 400px;
+}
+
+.contact-container {
+ background-color: #f2f2f2;
+ padding: 10px;
+}
+
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+ 
+}
+
+.column {
+
+ float:left;
+ padding: 10px;
+ text-align:center;
+}
+/* Currently their is a noticble different white background in the tables */
+.column30{
+width: 33.33%;
+max-height: 600px;
+overflow: hidden;
+}
+
+/* Havent decided whether Im using this or not just i case i accidently leave it in the css*/
+.column50{
+ width: 50%;
+ text-align:center;
+ background-image:url(images/background.jpg);
+	background-repeat:repeat-x;
+}
+.label {
+  color: White;
+  padding: 1px;
+  font-family: Arial;
+}
+.highlightlb1 {background-color: #4CAF50;} /* Green */
+.highlightlb2 {background-color: #1E4297;} /* Blue */
+.highlightlb3 {background-color: #ff9800;} /* Orange */
+.highlightlb4 {background-color: #f44336;} /* Red */ 
+.highlightlb5 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.LastText{
+	text-align:center;
+}
+.pageTitle {
+padding: 10px;
+  text-align: center;
+  color: #1E4297;
+  font-size: 15px;
+  max-width: 1000px;
+  overflow: hidden;
+}
+.h3 {
+  text-decoration: underline;
+  color: #1E4297;
+  overflow: hidden;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+#arrow {
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    width:10px;
+    height:10px;
+    transform: rotate(-45deg);
+    margin-top:40px;
+	
+}
+
+
+ul li {
+  position: relative;
+	padding-bottom: 10px;
+	
+}
+
+ul {
+  list-style: none;
+  
+}
+
+ul li:before{
+   content: '';
+   position: absolute;
+   border-right:2px solid black;
+   border-bottom:2px solid black;
+   width:10px;
+   height:10px;
+   top: calc(50% - 4px);
+   left: -20px;
+   transform: translateY(-50%) rotate(-45deg);
+   
+}
+#footer
+{
+font-size:12px;
+color:#0000FF;
+margin-top:18px;
+width:750px;
+text-align:center;
+}
+#footer a, #footer a:visited
+{
+	text-align:center;
+color:#0000FF;
+	text-decoration:none;
+}
+
+html, body {
+text-align: center;
+}
+
+p {text-align: left;}
